@@ -1,7 +1,7 @@
 # QuadrupedTrotting
 Run QuadrupedTrottingMainFile.m for generating trotting trajectories as per the below instructions. 
 
-QuadrupedTrottingMainFile.m is the main file I used to generate curve parameters for different gaits. Make sure this file stays with fwdKin.m, GaitCalc.m, invKin.m, phaseGaitCalc.m, plotQuadruped.m, Rx.m, Ry.m, Rz.m
+QuadrupedTrottingMainFile.m is the main file I used to generate curve parameters (configuration space parameters of limbs) for different gaits. Make sure this file stays with fwdKin.m, GaitCalc.m, invKin.m, phaseGaitCalc.m, plotQuadruped.m, Rx.m, Ry.m, Rz.m
 Set generateAnimation to 1 if you want to have animations. 
 Set makeGraphs to 1 if you want to save all the output graphs for X Y positions and curve parameters as files in the working directory.
 Set writeCurveParameterFiles to 1 if you want to save the curve parameters into named files based on the phase and and turn direction.
