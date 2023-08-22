@@ -1,4 +1,6 @@
 # QuadrupedTrotting
+Run apitest.py for PyBullet Simulations. Therein, you need to set Matlab Engine path. 
+
 Run QuadrupedTrottingMainFile.m for generating trotting trajectories as per the below instructions. 
 
 QuadrupedTrottingMainFile.m is the main file I used to generate curve parameters (configuration space parameters of limbs) for different gaits. Make sure this file stays with fwdKin.m, GaitCalc.m, invKin.m, phaseGaitCalc.m, plotQuadruped.m, Rx.m, Ry.m, Rz.m
